@@ -258,3 +258,11 @@ footer .umcontainer {
     background-repeat: no-repeat;
     background-position-x: 112px; 
 }
+#pageHolder p{text-wrap: nowrap;}
+
+#pageHolder a{
+  display: inline-block;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
