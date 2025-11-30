@@ -1,0 +1,262 @@
+/* Theme created by MadCreativity - https://ahlgreen.net/ */
+
+/* Main */
+#main {
+    padding: 0;
+    width: 950px;
+}
+
+/* Header ads */
+header .umcontainer {
+    display: none;
+}
+
+header #um3container {
+    display: none !important;
+}
+
+/* Middle bottom ad */
+#rightBlock #um3container {
+    display: block !important;
+}
+
+/* Footer ad and mspfalogo */
+footer .umcontainer {
+    padding: 2px 0 4px 0;
+    background-color: #535353;
+    position: relative;
+}
+
+footer .mspfalogo {
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    background-image: url("https://file.garden/W8dmXswzE0BjIqug/MSPFA_Theme_MSPA/bannerframe.png");
+}
+
+footer .um {
+    float: none;
+    position: absolute;
+    height: calc(100% - 8px);
+    left: calc(50% - (728px) / 2);
+}
+
+/* Copyright */
+#details {
+    grid-column: 1 / 4;
+    background-color: #EEEEEE;
+    padding: 2px 18px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+
+/* Side ad */
+#um3container {
+    position: static;
+    opacity: 1;
+    transform: translateX(0);
+    margin: 0 auto;
+}
+
+#um3container .optOut {
+    opacity: 1;
+}
+
+/* Bottom ad */
+#mainBlock .um {
+    float: none;
+    grid-column: 1 / 4;
+    height: 102px;
+    margin: 4px auto;
+}
+
+/* Comment box */
+#commentbox {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#commentbox > .spoiler {
+    border: 0;
+    margin-top: 56px !important;
+}
+
+#commentbox > .spoiler > div:first-child {
+    display: none;
+}
+
+
+/* Main block */
+#mainBlock {
+    width: 950px;
+    display: grid;
+    grid-template-columns: 262px 468px 196px;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: auto;
+}
+
+#mainBlock.comments #leftBlock, #mainBlock.comments #rightBlock {
+    display: none;
+}
+
+#mainBlock.comments #middleBlock {
+    grid-column: 1 / 4;
+}
+
+#mainBlock.comments #middleBlock .topImage {
+    padding-left: 67px;
+}
+
+#mainBlock.comments #commentbox .spoiler > div:first-child input[type="button"] {
+    margin-left: 67px;
+}
+
+/* Sub blocks */
+#leftBlock, #middleBlock, #rightBlock {
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 56px;
+    padding-top: 17px;
+}
+
+#leftBlock, #rightBlock {
+    background-color: #C6C6C6;
+    border-bottom: 7px solid #EEEEEE;
+}
+
+#leftBlock {
+    border-top: 7px solid #EEEEEE;
+    border-right: 7px solid #EEEEEE;
+}
+
+#middleBlock {
+    padding: 12px;
+    background-color: #EEEEEE;
+    font-size: 16px;
+}
+
+#rightBlock {
+    border-top: 7px solid #EEEEEE;
+    border-left: 7px solid #EEEEEE;
+}
+
+#commentBlock {
+    grid-column: 1/4;
+    background-color: #EEEEEE;
+    border: 7px solid #C6C6C6;
+    border-top: none;
+    margin-top: 12px;
+}
+
+/* Pages */
+#leftBlock #pageHolder {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    word-break: break-all;
+    font-size: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 0 2px;
+    margin: 32px 0 20px 0;
+}
+
+#leftBlock p {
+    margin: 0;
+}
+
+#leftBlock #viewAllPagesContainer {
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#leftBlock #viewAllPages {
+    font-size: medium !important;
+}
+
+/* Info */
+#middleBlock td span.major {
+    display: block;
+    margin-bottom: 4px;
+}
+
+/* Title image */
+#titleImage {
+    background-color: #eeeeee;
+    width: 100%;
+    border-top: 7px solid #C6C6C6;
+    grid-column: 1 / 4;
+}
+
+/* Top images */
+.topImage {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 16px;
+}
+
+/* Nav */
+nav {
+    background-color: #5a5a5a;
+}
+
+/* Nav links */
+nav a[href^="/log/"], nav a[href^="/search/"] {
+    color: #39d5f6 !important;
+}
+
+nav a[href^="/stats/"], nav a[href="/random/"], nav a[href="/stories/"] {
+    color: #29ff4a !important;
+}
+
+/* Bottom nav */
+#mainBlock nav {
+    grid-column: 1 / 4;
+}
+
+/* Candy */
+nav .heart {
+    background-image: url("https://file.garden/W8dmXswzE0BjIqug/MSPFA_Theme_MSPA/candycorn.gif");
+}
+
+/* Info */
+#info {
+    display: none;
+}
+#foot span a {
+    visibility: hidden;
+    word-spacing: -999px;
+    letter-spacing: -999px;
+}
+#foot span a::after {
+    visibility: visible;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+#startover::after {
+    content: "Voltar ao Início";
+}
+#goback::after {
+    content: "Voltar";
+}
+#savegame::after {
+    content: "Salvar Jogo";
+}
+#loadgame::after {
+    content: "Carregar Jogo";
+}
+#deletegame::after {
+    content: "Deletar Jogo";
+}
+#pageHolder p{text-wrap: nowrap;}
+
+#pageHolder a{
+  display: inline-block;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
