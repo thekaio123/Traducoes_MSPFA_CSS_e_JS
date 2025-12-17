@@ -1,6 +1,6 @@
 /* Theme created by MadCreativity - https://ahlgreen.net/ */
 
-body {
+#container {
     font-family: "Courier New";
     font-size: 18px;
     font-weight: bold;
@@ -271,5 +271,6 @@ footer .umcontainer {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 
 
