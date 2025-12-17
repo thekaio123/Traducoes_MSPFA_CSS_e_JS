@@ -3,7 +3,6 @@
 #container {
     font-family: "Courier New";
     font-size: 18px;
-    font-weight: bold;
 }
 /* Main */
 #main {
@@ -271,6 +270,7 @@ footer .umcontainer {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 
 
 
