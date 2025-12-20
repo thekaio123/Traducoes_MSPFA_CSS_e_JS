@@ -1,5 +1,8 @@
 /* Theme created by MadCreativity - https://ahlgreen.net/ */
-
+#container {
+    font-size:16px;
+    line-height: 22px;
+}
 /* Main */
 #main {
     padding: 0;
@@ -259,4 +262,5 @@ nav .heart {
   max-width: 160px;
   overflow: hidden;
   text-overflow: ellipsis;
+
 }
