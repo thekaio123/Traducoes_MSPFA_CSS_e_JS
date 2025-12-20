@@ -1,6 +1,7 @@
 /* Theme created by MadCreativity - https://ahlgreen.net/ */
 #container {
     font-size:16px;
+    line-height: 22px;
 }
 /* Main */
 #main {
@@ -268,3 +269,4 @@ footer .umcontainer {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
